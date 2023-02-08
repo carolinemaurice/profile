@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  color: black;
+  background-color: #d8f3dc;
+  font-family:'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+h1 {
+  color: white;
+  font-family:'Poppins', sans-serif;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+h2 {
+  color: white;
+  font-family:'Poppins', sans-serif;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+h3 {
+  color: #003d5b;
+  font-family:'Poppins', sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+h4 {
+  color: green;
+  font-family:'Poppins', sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+a:hover {
+  color: #003d5b;
+  text-decoration: none;
+}
+
+img {
+  width: 120px;
+  height: auto;
+}
+
+.container {
+  margin: 10px 100px 10px 100px;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px whitesmoke;
+}
+
+.description {
+  margin: 30px;
+  text-align: justify;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.list-without-style {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-incolumn {
+  padding-top: 10px;
+}
+
+.block-inline {
+  display: inline-block;
+}
+
+.block-padding-30px {
+  padding: 0px 30px;
+}
+
+.block-padding-20px {
+  padding: 0px 20px;
+}
+
+.block-padding-10px {
+  padding: 0px 10px;
+}
+
+.align-on-top {
+  vertical-align: top;
+}
+
+.btn {
+  background-color: white;
+  border: 2px solid green;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px #a3b18a;
+}
+
+.icon {
+  width: auto;
+  height: 30px;
+}
+
+#header {
+  background-color: #03045e;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3, h4, p, a {
+    font-size: 1em;
+  }
+
+  .description {
+    margin: 30px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  h3, h4, p, a {
+    font-size: 0.6em;
+  }
+
+  .description {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  h1 {
+    font-size: 1em;
+  }
+
+  h2 {
+    font-size: 0.6em;
+  }
+
+  h3, h4, p, a {
+    font-size: 0.6em;
+  }
+
+  .description {
+    margin: 10px;
+  }
+}
